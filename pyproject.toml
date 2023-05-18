@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "recommender-systems"
+version = "0.1.0"
+description = ""
+authors = ["Luis Ek <52711401+lek18@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "recommender_systems"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-surprise = "^1.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
